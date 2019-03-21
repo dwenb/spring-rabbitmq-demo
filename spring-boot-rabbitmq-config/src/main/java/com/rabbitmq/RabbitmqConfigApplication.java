@@ -1,4 +1,4 @@
-package com.rabbitmq.springbootrabbitmqconfig;
+package com.rabbitmq;
 
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.amqp.core.Queue;
@@ -9,10 +9,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class SpringBootRabbitmqConfigApplication {
+public class RabbitmqConfigApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootRabbitmqConfigApplication.class, args);
+        SpringApplication.run(RabbitmqConfigApplication.class, args);
     }
 
     @Bean

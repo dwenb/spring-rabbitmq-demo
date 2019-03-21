@@ -1,4 +1,4 @@
-package com.rabbit;
+package com.rabbitmq;
 
 import org.springframework.amqp.core.AmqpAdmin;
 import org.springframework.amqp.core.AmqpTemplate;
